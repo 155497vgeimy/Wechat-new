@@ -7,27 +7,59 @@
     minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
   <link rel="stylesheet" href="img/iconfont.css">
   <style>
+    @keyframes test{
+      from{
+        /*width: 0;*/
+        height: 8px
+      }
+      to{width: 15px;
+        height: 7px;
+        /*animation: test 1s infinite;*/
+        /*-webkit-keyframes: test 2s infinite;*/
+        /*transition: 3s;*/
+        background-color: #55a532;}
+    }
+    .idcv{
+      position: absolute;
+      top: 11px;
+      width: 0;
+      height: 10px;
+      border: solid 1px #ee9900;
+      background-color: #990055;
+      /*animation: test 2s;*/
+      animation:test 1s infinite;
+      /*animation-direction:alternate;*/
+      /*width: 500px;*/
+    }
+    *{
+      padding: 0;
+      margin: 0;
+    }
     html body .iconfont{
-      font-size: 60px;
+      font-size: 20px;
+    }
+    html div{
+      flex-wrap: wrap;
     }
     .top{
-      height: 80px;
+      height: 30px;
       border: solid 1px #ffffff;
-      font-size: 60px;
-      line-height: 100px;
+      font-size: 20px;
+      line-height: 33px;
     }
     #we .top .time{
-      width: 200px;
+      width: 88px;
       float: left;
+      text-align: center;
 
     }
     #we .top .icons{
-      width: 440px;
+      width: 145px;
       float: left;
 
     }
     #we .top .top2{
-      width: 420px;
+      width: 140px;
       float: left;
     }
     .test{
@@ -37,25 +69,25 @@
       float: right;
     }
     #we .titiles{
-      height: 160px;
-      border: solid 1px #cccccc;
+      height: 53px;
+      border: solid 1px #ffffff;
     }
     #we .les {
-      width: 530px;
+      width: 196px;
       float: left;
       font-size: 100px;
     }
     .les .tes{
-      font-size: 100px;
+      font-size: 33px;
       float: right;
-      right: 30px;
+      right: 10px;
     }
     .titiles .tit_content{
-      width: 530px;
-      font-size: 50px;
-      line-height: 120px;
+      width: 177px;
+      font-size: 17px;
+      line-height: 40px;
       /*垂直居中*/
-      text-indent: 30px;
+      text-indent: 10px;
       /*text-align: center;*/
       /*居中*/
       float: left;
@@ -64,31 +96,31 @@
     #we .p1{
       list-style: none;
       /*ul去点*/
-      height: 1750px;
+      height: 538px;
       overflow: scroll;
       /*overflow: hidden;*/
       /*微信下翻 它可以出现滚动条*/
     }
     #we .p1 .tue{
-      height: 500px;
+      height: 167px;
       background-color: #969896;
       position: relative;
     }
     #we .p1 .puw{
-      width: 200px;
-      height: 200px;
+      width: 67px;
+      height: 67px;
       /*position: center;*/
       margin: auto;
       position: relative;
-      left: 300px;
-      top: -100px;
+      left: 100px;
+      top: -33px;
       /*right: 0;*/
     }
     #we ul li{
-      height: 800px;
+      height: 267px;
       border-bottom: solid 1px #999999;
       font-weight: 800;
-      font-size: 50px;
+      font-size: 17px;
       /*vertical-align: top;*/
       /*!*顶对齐*!*/
     }
@@ -97,18 +129,18 @@
 
     }
     ul .poto{
-      height: 200px;
+      height: 67px;
       float: left;
       /*width: 500px;*/
 
 
     }
     ul .poto2{
-      width: 1000px;
-      height: 600px;
+      width: 333px;
+      height: 200px;
       position: relative;
-      left: -50px;
-      top: 100px;
+      left: -17px;
+      top: 33px;
     }
     ul .poto2 img{
       float: left;
@@ -117,25 +149,25 @@
       /*line-height: 100px;*/
       /*margin: 20px;*/
       position: relative;
-      left: 10px;
-      top: -100px;
+      left: 3px;
+      top: -33px;
 
     }
     html body a{
-      background-size: 50px 50px;
+      background-size: 17px 17px;
     }
     #we .manager{
       display: flex;
       border: solid 1px #ffffff;
-      height: 120px;
+      height: 40px;
       /*display: flex;*/
       /*弹性布局*/
     }
     #we .manager div{
       flex: 1;
       border: solid 1px #ffffff;
-      font-size: 40px;
-      line-height: 50px;
+      font-size: 13px;
+      line-height: 17px;
       text-align: center;
 
     }
@@ -143,17 +175,17 @@
       text-decoration-line: none;
     }
     #we .manager div span{
-      height: 50px;
-      font-size: 60px;
+      height: 17px;
+      font-size: 20px;
     }
     #we .manager div .ic{
-      font-size: 30px;
+      font-size: 10px;
     }
     ul li img {
-      height: 150px;
-      width: 150px;
+      height: 50px;
+      width: 50px;
       /*text-align: center;*/
-      line-height: 200px;
+      line-height: 67px;
 
     }
   </style>
@@ -168,13 +200,13 @@
     </div>
     <div class="time">16:04</div>
     <div class="top2">
-      <span class="iconfont tests">&#xe695;</span>
+      <span class="iconfont tests">&#xe695;<div class="idcv"></div></span>
       <span class="iconfont tests">56%</span>
       <span class="iconfont tests">&#xe61f;</span>
     </div>
   </div>
   <div class="titiles">
-    <div class="tit_content"><a href="find.html"><span class="iconfont">&#xe622;</span>＜</a></div>
+    <div class="tit_content"><a href="find.html">＜返回</a></div>
     <div class="les">
       <!--<span class="iconfont tes csc"><a href="Circle%20of%20friends.html">&#xe68a;</a></span>-->
       <span class="iconfont tes csc">&#xe633;</span>
@@ -188,10 +220,10 @@
     </div>
     <ul>
 
-      <div class="puw"><img src="img/498396%25ThumbN%25.jpg" height="200px" width="200px"></div>
+      <div class="puw"><img src="img/498396%25ThumbN%25.jpg" height="67px" width="67px"></div>
       <li>
         <div class="poto">
-          <img src="img/hdImg_7b3982a6dc60d51005ec2c0da8eea21b15583458047.jpg"width="100px" height="100px" alt="">
+          <img src="img/hdImg_7b3982a6dc60d51005ec2c0da8eea21b15583458047.jpg"width="33px" height="33px" alt="">
           <span>麒麟</span>
           <!--<img src="img/IMG_20190521_000822.jpg"height="400px" width="250px">-->
         </div>
