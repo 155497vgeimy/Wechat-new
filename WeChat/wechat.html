@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,
+    minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+  <link rel="stylesheet" href="img/iconfont.css">
+  <style>
+    @keyframes test{
+      from{
+        /*width: 0;*/
+        height: 25px
+      }
+      to{width: 45px;
+        height: 25px;
+        /*animation: test 1s infinite;*/
+        /*-webkit-keyframes: test 2s infinite;*/
+        /*transition: 3s;*/
+        background-color: #55a532;}
+    }
+    .idcv{
+      position: absolute;
+      top: 42px;
+      width: 0;
+      height: 29px;
+      border: solid 1px #ee9900;
+      background-color: #990055;
+      /*animation: test 2s;*/
+      animation:test 1s infinite;
+      /*animation-direction:alternate;*/
+      /*width: 500px;*/
+    }
+    html body .iconfont{
+      font-size: 60px;
+
+    }
+    .top{
+      height: 80px;
+      border: solid 1px #ffffff;
+      font-size: 60px;
+      line-height: 100px;
+    }
+    #we .top .time{
+      width: 200px;
+      float: left;
+
+    }
+    #we .top .icons{
+      width: 440px;
+      float: left;
+
+    }
+    #we .top .top2{
+      width: 420px;
+      float: left;
+    }
+    .test{
+      float: left;
+    }
+    .tests{
+      float: right;
+    }
+    #we .titiles{
+      height: 160px;
+      border: solid 1px #cccccc;
+    }
+    #we .les {
+      width: 530px;
+      float: left;
+      font-size: 100px;
+    }
+    .les .tes{
+      font-size: 100px;
+      float: right;
+    }
+    .titiles .tit_content{
+      width: 530px;
+      font-size: 50px;
+      line-height: 120px;
+      /*垂直居中*/
+      text-indent: 30px;
+      /*text-align: center;*/
+      /*居中*/
+      float: left;
+
+    }
+    #we .wum{
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+    #we ul{
+      list-style: none;
+      /*ul去点*/
+      height: 1750px;
+      overflow: scroll;
+      /*overflow: hidden;*/
+      /*微信下翻 它可以出现滚动条*/
+    }
+    #we ul li{
+      height: 200px;
+      border-bottom: solid 1px #999999;
+      font-weight: 800;
+      font-size: 50px;
+      /*vertical-align: top;*/
+      /*!*顶对齐*!*/
+      width: 1000px;
+      /*overflow: hidden;*/
+      /*text-overflow: ellipsis;*/
+      /*white-space: nowrap;*/
+      /*省略号 省略后面的话*/
+    }
+    #we ul li span{
+      line-height: 80px;
+
+    }
+    #we ul li .wum{
+      text-indent: 60px;
+    }
+    html body a{
+      background-size: 50px 50px;
+    }
+    #we .manager{
+      display: flex;
+      border: solid 1px #ffffff;
+      height: 120px;
+      /*display: flex;*/
+      /*弹性布局*/
+    }
+    #we .manager div{
+      flex: 1;
+      border: solid 1px #ffffff;
+      font-size: 40px;
+      line-height: 50px;
+      text-align: center;
+
+    }
+    #we .manager div a{
+      text-decoration-line: none;
+    }
+    #we .manager div span{
+      height: 50px;
+      font-size: 60px;
+    }
+    #we .manager div .ic{
+      font-size: 30px;
+    }
+    ul li img {
+    height: 150px;
+      width: 150px;
+      border-radius: 20px;
+      /*text-align: center;*/
+      /*line-height: 300px;*/
+      float: left;
+
+    }
+
+
+    .a{
+      width: 500px;
+      height: 750px;
+      background-color: #000000;
+      position: absolute;
+      left: 550px;
+      top: 190px;
+      display: none;
+      opacity: 0.7;
+
+    }
+
+    #we .titiles .les {
+      list-style: none;
+    }
+    .titiles .les span:nth-child(1){
+      width: 100px;
+      height: 100px;
+      line-height: 100px;
+      /*border: solid 1px #969896;*/
+
+    }
+    .titiles .les span:hover    .a{
+      display: block;
+      font-size: 60px;
+      border: solid 1px #999999;
+      line-height: 150px;
+      color: #eaffea;
+    }
+
+
+  </style>
+</head>
+<body>
+<div id="we">
+
+  <div class="top">
+    <div class="icons">
+      <span class="iconfont test">&#xeb0e;</span>
+      <span class="iconfont test">&#xeb07;</span>
+    </div>
+    <div class="time">16:04</div>
+    <div class="top2">
+      <span class="iconfont tests">&#xe695; <div class="idcv"></div></span>
+      <span class="iconfont tests">56%</span>
+      <span class="iconfont tests">&#xe61f;</span>
+    </div>
+  </div>
+  <div class="titiles">
+    <div class="tit_content">微信</div>
+
+
+
+    <div class="les">
+      <!--<span class="iconfont tes csc"><a href="Circle%20of%20friends.html">&#xe68a;</a></span>-->
+      <span class="iconfont tes csc">&#xe68a;
+      <div class="a">
+        <li><span class="iconfont">&#xe617;</span> 发起群聊</li>
+        <li><span class="iconfont">&#xe625;</span> 添加朋友</li>
+        <li><span class="iconfont">&#xe79b;</span> 扫一扫</li>
+        <li><span class="iconfont">&#xe6dc;</span> 收付款</li>
+        <li><span class="iconfont">&#xe648;</span> 帮助与反馈</li>
+      </div>
+      </span>
+      <span class="iconfont tes">&#xe64a;</span>
+    </div>
+
+
+
+
+
+  </div>
+  <div class="wumm">
+  <ul>
+    <li><img src="img/498396%25ThumbN%25.jpg" alt=""><div class="wum">17劳动关系JAVA班</div></li>
+    <li><img src="img/437198%25ThumbN%25.jpg" alt=""><div class="wum"><span>ME</span><br><span style="opacity: 0.5"> &nbsp;&nbsp;&nbsp;&nbsp;世界那么大，想带你去看</span></div></li>
+    <li><img src="img/498396%25ThumbN%25.jpg" alt=""><div class="wum"><span>订阅号</span><br><span style="opacity: 0.5">&nbsp;&nbsp;&nbsp;&nbsp;共青团中央；这款app官宣上线，全网都在求！特别是女生</span></div></li>
+    <li><img src="img/445602%25ThumbN%25.jpg" alt=""><div class="wum"><span>拼多多</span><br><span style="opacity: 0.5">&nbsp;&nbsp;&nbsp;&nbsp;世界那么大，想带你去看</span></div></li>
+    <li><img src="img/481352%25ThumbN%25.jpg" alt=""><div class="wum"><span>腾讯新闻</span><br><span style="opacity: 0.5">&nbsp;&nbsp;&nbsp;&nbsp;世界那么大，想带你去看</span></div></li>
+    <li><img src="img/490579%25ThumbN%25.jpg" alt=""><div class="wum"><span>长治能量互动交流群</span><br><span style="opacity: 0.5">&nbsp;&nbsp;&nbsp;&nbsp;世界那么大，想带你去看</span></div></li>
+    <li><img src="img/490579%25ThumbN%25.jpg" alt=""><div class="wum"><span>微信支付</span><br><span style="opacity: 0.5">&nbsp;&nbsp;&nbsp;&nbsp;世界那么大，想带你去看</span></div></li>
+    <li><img src="img/435294%25ThumbN%25.jpg" alt=""><div class="wum"><span>文件传输助手</span><br><span style="opacity: 0.5">&nbsp;&nbsp;&nbsp;&nbsp;世界那么大，想带你去看</span></div></li>
+    <li><img src="img/481352%25ThumbN%25.jpg" alt=""><div class="wum"><span>蜜雪冰城</span><br><span style="opacity: 0.5">&nbsp;&nbsp;&nbsp;&nbsp;世界那么大，想带你去看</span></div></li>
+    <li><img src="img/498396%25ThumbN%25.jpg" alt=""><div class="wum"><span>三星会员俱乐部</span><br><span style="opacity: 0.5">&nbsp;&nbsp;&nbsp;&nbsp;世界那么大，想带你去看</span></div></li>
+    <li>1</li>
+    <li><img src="img/498396%25ThumbN%25.jpg" alt="">17劳动关系JAVA班</li>
+    <li><img src="img/437198%25ThumbN%25.jpg" alt=""><div class="wum"><span>郑兴岩</span><br><span style="opacity: 0.5">&nbsp;&nbsp;&nbsp;&nbsp;世界那么大，想带你去看</span></div></li>
+    <li><img src="img/498396%25ThumbN%25.jpg" alt=""><div class="wum"><span>微拍堂</span><br><span style="opacity: 0.5">&nbsp;&nbsp;&nbsp;&nbsp;世界那么大，想带你去看</span></div></li>
+    <li><img src="img/445602%25ThumbN%25.jpg" alt=""><div class="wum"><span>她微信团队</span><br><span style="opacity: 0.5">&nbsp;&nbsp;&nbsp;&nbsp;世界那么大，想带你去看</span></div></li>
+    <li><img src="img/481352%25ThumbN%25.jpg" alt=""><div class="wum"><span>OPPO</span><br><span style="opacity: 0.5">&nbsp;&nbsp;&nbsp;&nbsp;世界那么大，想带你去看</span></div></li>
+    <li><img src="img/490579%25ThumbN%25.jpg" alt=""><div class="wum"><span>中国移动10086</span><br><span style="opacity: 0.5">&nbsp;&nbsp;&nbsp;&nbsp;世界那么大，想带你去看</span></div></li>
+    <li><img src="img/490579%25ThumbN%25.jpg" alt=""><div class="wum"><span>微信游戏</span><br><span style="opacity: 0.5">&nbsp;&nbsp;&nbsp;&nbsp;世界那么大，想带你去看</span></div></li>
+    <li><img src="img/435294%25ThumbN%25.jpg" alt=""><div class="wum"><span>扫呗生活</span><br><span style="opacity: 0.5">&nbsp;&nbsp;&nbsp;&nbsp;世界那么大，想带你去看</span></div></li>
+    <li><img src="img/481352%25ThumbN%25.jpg" alt=""><div class="wum"><span>中国联通微厅</span><br><span style="opacity: 0.5">&nbsp;&nbsp;&nbsp;&nbsp;世界那么大，想带你去看</span></div></li>
+
+    <li>1</li>
+    <li>1</li>
+    <li>1</li>
+    <li>1</li>
+    <li>1</li>
+    <li>1</li>
+    <li>1</li>
+    <li>1</li>
+    <li>1</li>
+    <li>1</li>
+    <li>1</li>
+    <li>1</li>
+    <li>1</li>
+    <li>1</li>
+    <li>1</li>
+  </ul>
+  </div>
+  <div class="manager">
+    <div><a href="wechat.html"><span class="iconfont" style="color: #1afa29">&#xe62c;</span><br><span class="ic">微信</span></a></div>
+                                        <!--使用父子选择器 如class=“iconfont  a1”-->
+    <div><a href="mail%20list.html"><span class="iconfont">&#xe629;</span><br><span class="ic">通讯录</span></a></div>
+    <div><a href="find.html"><span class="iconfont">&#xe612;</span><br><span class="ic">发现</span></a></div>
+    <div><a href="my.html"><span class="iconfont">&#xe67b;</span><br><span class="ic">我</span></a></div>
+  </div>
+
+</div>
+</body>
+</html>
